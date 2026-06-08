@@ -17,136 +17,123 @@
   --line:rgba(26,26,24,0.12);--line-strong:rgba(26,26,24,0.25);
 }
 html{scroll-behavior:smooth}
-body{background:var(--paper);color:var(--ink);font-family:'Noto Sans JP',sans-serif;font-weight:300;line-height:1.8;font-size:15px}
+body{background:var(--paper);color:var(--ink);font-family:'Noto Sans JP',sans-serif;font-weight:300;line-height:1.9;font-size:17px}
 
 .site-header{background:var(--ink);color:var(--paper);padding:3.5rem 2rem 3rem;text-align:center;position:relative;overflow:hidden}
 .site-header::before{content:'';position:absolute;inset:0;background:repeating-linear-gradient(90deg,transparent,transparent 40px,rgba(255,255,255,0.02) 40px,rgba(255,255,255,0.02) 41px)}
-.header-eyebrow{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:13px;letter-spacing:0.25em;color:var(--moss-pale);margin-bottom:1rem;text-transform:uppercase}
-.site-header h1{font-family:'Noto Serif JP',serif;font-weight:300;font-size:clamp(26px,5vw,42px);letter-spacing:0.15em;line-height:1.4;margin-bottom:0.5rem}
-.header-catch{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:clamp(16px,3vw,22px);color:var(--moss-pale);letter-spacing:0.1em;margin-top:0.5rem}
-.header-meta{font-size:12px;color:rgba(247,244,237,0.4);letter-spacing:0.1em;margin-top:1.5rem}
+.header-eyebrow{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:15px;letter-spacing:0.25em;color:var(--moss-pale);margin-bottom:1rem;text-transform:uppercase}
+.site-header h1{font-family:'Noto Serif JP',serif;font-weight:300;font-size:clamp(28px,5vw,46px);letter-spacing:0.15em;line-height:1.4;margin-bottom:0.5rem}
+.header-catch{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:clamp(18px,3vw,24px);color:var(--moss-pale);letter-spacing:0.1em;margin-top:0.5rem}
+.header-meta{font-size:13px;color:rgba(247,244,237,0.4);letter-spacing:0.1em;margin-top:1.5rem}
 
 .toc{background:var(--paper-warm);border-bottom:1px solid var(--line);padding:0.75rem 2rem;display:flex;gap:1.5rem;flex-wrap:wrap;justify-content:center}
-.toc a{font-size:12px;color:var(--ink-light);text-decoration:none;letter-spacing:0.06em;padding:0.25rem 0;border-bottom:1px solid transparent;transition:color .2s,border-color .2s}
+.toc a{font-size:14px;color:var(--ink-light);text-decoration:none;letter-spacing:0.06em;padding:0.25rem 0;border-bottom:1px solid transparent;transition:color .2s,border-color .2s}
 .toc a:hover{color:var(--moss);border-color:var(--moss)}
 
-.container{max-width:860px;margin:0 auto;padding:0 1.5rem}
+.container{max-width:900px;margin:0 auto;padding:0 1.5rem}
 section{padding:3.5rem 0;border-bottom:1px solid var(--line)}
-.section-eyebrow{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:12px;letter-spacing:0.2em;color:var(--ink-muted);text-transform:uppercase;margin-bottom:0.4rem}
-h2{font-family:'Noto Serif JP',serif;font-weight:400;font-size:21px;letter-spacing:0.08em;margin-bottom:1.75rem;padding-bottom:0.75rem;border-bottom:1px solid var(--line-strong)}
-h3{font-size:15px;font-weight:500;letter-spacing:0.05em;margin-bottom:0.75rem;color:var(--ink)}
+.section-eyebrow{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:14px;letter-spacing:0.2em;color:var(--ink-muted);text-transform:uppercase;margin-bottom:0.4rem}
+h2{font-family:'Noto Serif JP',serif;font-weight:400;font-size:24px;letter-spacing:0.08em;margin-bottom:1.75rem;padding-bottom:0.75rem;border-bottom:1px solid var(--line-strong)}
+h3{font-size:18px;font-weight:500;letter-spacing:0.05em;margin-bottom:0.75rem;color:var(--ink)}
 
-/* 2カラム */
 .two-col{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line-strong);margin:1.5rem 0}
 .col-cell{background:var(--paper);padding:1.5rem}
 .col-cell.dark{background:var(--ink);color:var(--paper)}
-.col-label{font-size:10px;letter-spacing:0.15em;color:var(--ink-muted);margin-bottom:8px;text-transform:uppercase}
+.col-label{font-size:12px;letter-spacing:0.15em;color:var(--ink-muted);margin-bottom:8px;text-transform:uppercase}
 .col-cell.dark .col-label{color:rgba(247,244,237,0.4)}
-.col-body{font-size:13px;line-height:1.85;color:var(--ink-mid)}
+.col-body{font-size:15px;line-height:1.9;color:var(--ink-mid)}
 .col-cell.dark .col-body{color:rgba(247,244,237,0.82)}
 
-/* 宿泊マップ表 */
-.lodge-table{width:100%;border-collapse:collapse;margin:1.5rem 0;font-size:13px}
-.lodge-table th{background:var(--ink);color:var(--paper);font-weight:400;letter-spacing:0.06em;padding:10px 14px;text-align:left;font-size:11px}
-.lodge-table td{padding:11px 14px;vertical-align:top;border-bottom:1px solid var(--line);line-height:1.7}
+.lodge-table{width:100%;border-collapse:collapse;margin:1.5rem 0;font-size:15px}
+.lodge-table th{background:var(--ink);color:var(--paper);font-weight:400;letter-spacing:0.06em;padding:12px 16px;text-align:left;font-size:13px}
+.lodge-table td{padding:13px 16px;vertical-align:top;border-bottom:1px solid var(--line);line-height:1.8}
 .lodge-table tr:last-child td{border-bottom:none}
 .lodge-table tr:nth-child(even) td{background:var(--paper-warm)}
 .lodge-table tr.gap td{background:var(--moss-bg);font-weight:500}
-.dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px;vertical-align:middle}
+.dot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:6px;vertical-align:middle}
 .dot-gray{background:var(--ink-muted)}
 .dot-amber{background:var(--amber)}
 .dot-moss{background:var(--moss)}
 .dot-red{background:var(--red)}
 
-/* callout */
-.callout{border-left:3px solid var(--moss);background:var(--moss-bg);padding:1rem 1.25rem;font-size:13px;color:var(--moss);margin:1.5rem 0;line-height:1.8}
+.callout{border-left:3px solid var(--moss);background:var(--moss-bg);padding:1.1rem 1.4rem;font-size:15px;color:var(--moss);margin:1.5rem 0;line-height:1.9}
 .callout.amber{border-color:var(--amber);background:var(--amber-pale);color:var(--amber)}
 .callout.warn{border-color:var(--red);background:var(--red-pale);color:var(--red)}
 .callout.info{border-color:var(--blue);background:var(--blue-pale);color:var(--blue)}
 .callout.dark{border-color:var(--ink-mid);background:var(--paper-dark);color:var(--ink-mid)}
 
-/* concept hero */
 .concept-hero{background:var(--ink);color:var(--paper);padding:2.5rem 2rem;margin:1.5rem 0;position:relative}
 .concept-hero::after{content:'';position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--moss-pale)}
-.concept-catch{font-family:'Noto Serif JP',serif;font-weight:300;font-size:clamp(22px,4vw,32px);letter-spacing:0.2em;margin-bottom:0.75rem;line-height:1.5}
-.concept-sub{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:16px;color:var(--moss-pale);margin-bottom:1rem}
-.concept-body{font-size:13px;line-height:1.9;color:rgba(247,244,237,0.75)}
+.concept-catch{font-family:'Noto Serif JP',serif;font-weight:300;font-size:clamp(24px,4vw,36px);letter-spacing:0.2em;margin-bottom:0.75rem;line-height:1.5}
+.concept-sub{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:18px;color:var(--moss-pale);margin-bottom:1rem}
+.concept-body{font-size:15px;line-height:1.9;color:rgba(247,244,237,0.75)}
 
-/* tags */
 .tags{display:flex;flex-wrap:wrap;gap:8px;margin:1.25rem 0}
-.tag{font-size:11px;letter-spacing:0.06em;padding:4px 12px;border:1px solid}
+.tag{font-size:13px;letter-spacing:0.06em;padding:5px 14px;border:1px solid}
 .tag-green{border-color:var(--moss);color:var(--moss)}
 .tag-amber{border-color:var(--amber);color:var(--amber)}
 .tag-blue{border-color:var(--blue);color:var(--blue)}
 
-/* metrics */
-.metrics{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:1px;background:var(--line);margin:1.5rem 0}
+.metrics{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:1px;background:var(--line);margin:1.5rem 0}
 .metric{background:var(--paper);padding:1.25rem 1.5rem}
-.metric-label{font-size:11px;color:var(--ink-muted);letter-spacing:0.08em;margin-bottom:6px}
-.metric-val{font-family:'Cormorant Garamond',serif;font-size:28px;color:var(--ink);line-height:1;margin-bottom:4px}
-.metric-note{font-size:11px;color:var(--ink-light);line-height:1.5}
+.metric-label{font-size:12px;color:var(--ink-muted);letter-spacing:0.08em;margin-bottom:6px}
+.metric-val{font-family:'Cormorant Garamond',serif;font-size:32px;color:var(--ink);line-height:1;margin-bottom:4px}
+.metric-note{font-size:12px;color:var(--ink-light);line-height:1.6}
 
-/* timeline */
 .timeline{margin:1.5rem 0;border-left:2px solid var(--moss);padding-left:1.5rem}
 .tl-item{margin-bottom:1.5rem;position:relative}
-.tl-item::before{content:'';position:absolute;left:-1.75rem;top:6px;width:8px;height:8px;border-radius:50%;background:var(--moss)}
+.tl-item::before{content:'';position:absolute;left:-1.75rem;top:6px;width:9px;height:9px;border-radius:50%;background:var(--moss)}
 .tl-item:last-child{margin-bottom:0}
-.tl-year{font-family:'Cormorant Garamond',serif;font-size:22px;color:var(--moss);line-height:1;margin-bottom:4px}
-.tl-title{font-size:14px;font-weight:500;margin-bottom:3px}
-.tl-body{font-size:13px;color:var(--ink-light);line-height:1.7}
+.tl-year{font-family:'Cormorant Garamond',serif;font-size:24px;color:var(--moss);line-height:1;margin-bottom:4px}
+.tl-title{font-size:16px;font-weight:500;margin-bottom:3px}
+.tl-body{font-size:15px;color:var(--ink-light);line-height:1.8}
 
-/* biz model */
-.biz-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin:1.5rem 0}
 .biz-card{border:1px solid var(--line);padding:1.25rem;background:var(--paper-warm)}
-.biz-role{font-size:11px;letter-spacing:0.1em;color:var(--ink-muted);margin-bottom:6px;text-transform:uppercase}
-.biz-name{font-size:14px;font-weight:500;margin-bottom:6px;color:var(--ink)}
-.biz-body{font-size:12px;color:var(--ink-light);line-height:1.7}
+.biz-role{font-size:12px;letter-spacing:0.1em;color:var(--ink-muted);margin-bottom:6px;text-transform:uppercase}
+.biz-name{font-size:16px;font-weight:500;margin-bottom:6px;color:var(--ink)}
+.biz-body{font-size:14px;color:var(--ink-light);line-height:1.8}
 
-/* steps */
 .steps{margin:1.5rem 0}
-.step{display:flex;gap:1.25rem;align-items:flex-start;padding:1.1rem 0;border-bottom:1px solid var(--line)}
+.step{display:flex;gap:1.25rem;align-items:flex-start;padding:1.2rem 0;border-bottom:1px solid var(--line)}
 .step:last-child{border-bottom:none}
-.step-num{font-family:'Cormorant Garamond',serif;font-size:28px;font-weight:300;color:var(--ink-muted);line-height:1;min-width:32px;padding-top:2px}
-.step-title{font-size:14px;font-weight:500;margin-bottom:4px}
-.step-body{font-size:13px;color:var(--ink-light);line-height:1.7}
+.step-num{font-family:'Cormorant Garamond',serif;font-size:32px;font-weight:300;color:var(--ink-muted);line-height:1;min-width:36px;padding-top:2px}
+.step-title{font-size:16px;font-weight:500;margin-bottom:4px}
+.step-body{font-size:15px;color:var(--ink-light);line-height:1.8}
 
-/* ref model */
 .ref-compare{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line-strong);margin:1.5rem 0}
 .ref-col{background:var(--paper);padding:1.5rem}
 .ref-col.accent{background:var(--ink);color:var(--paper)}
-.ref-col-label{font-size:10px;letter-spacing:0.15em;color:var(--ink-muted);margin-bottom:1rem;text-transform:uppercase}
+.ref-col-label{font-size:12px;letter-spacing:0.15em;color:var(--ink-muted);margin-bottom:1rem;text-transform:uppercase}
 .ref-col.accent .ref-col-label{color:var(--moss-pale)}
-.ref-row{display:flex;gap:10px;font-size:13px;margin-bottom:8px;line-height:1.6}
+.ref-row{display:flex;gap:10px;font-size:15px;margin-bottom:9px;line-height:1.7}
 .ref-row:last-child{margin-bottom:0}
-.ref-key{min-width:80px;color:var(--ink-muted);font-size:11px;padding-top:2px}
+.ref-key{min-width:80px;color:var(--ink-muted);font-size:12px;padding-top:3px}
 .ref-col.accent .ref-key{color:rgba(247,244,237,0.45)}
 .ref-val{flex:1;color:var(--ink-mid)}
 .ref-col.accent .ref-val{color:rgba(247,244,237,0.85)}
 
-/* subsidy */
 .subsidy-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin:1.5rem 0}
 .subsidy-card{border:1px solid var(--line);padding:1.25rem;background:var(--paper-warm)}
-.subsidy-name{font-size:13px;font-weight:500;margin-bottom:6px}
-.subsidy-amount{font-family:'Cormorant Garamond',serif;font-size:22px;color:var(--moss);margin-bottom:4px}
-.subsidy-note{font-size:11px;color:var(--ink-light);line-height:1.6}
+.subsidy-name{font-size:15px;font-weight:500;margin-bottom:6px}
+.subsidy-amount{font-family:'Cormorant Garamond',serif;font-size:26px;color:var(--moss);margin-bottom:4px}
+.subsidy-note{font-size:13px;color:var(--ink-light);line-height:1.7}
 
-/* route table */
-.route-table{width:100%;border-collapse:collapse;margin:1.5rem 0;font-size:13px}
-.route-table th{background:var(--ink);color:var(--paper);font-weight:400;letter-spacing:0.06em;padding:10px 14px;text-align:left;font-size:11px}
-.route-table td{padding:11px 14px;vertical-align:top;border-bottom:1px solid var(--line);line-height:1.7}
+.route-table{width:100%;border-collapse:collapse;margin:1.5rem 0;font-size:15px}
+.route-table th{background:var(--ink);color:var(--paper);font-weight:400;letter-spacing:0.06em;padding:12px 16px;text-align:left;font-size:13px}
+.route-table td{padding:13px 16px;vertical-align:top;border-bottom:1px solid var(--line);line-height:1.8}
 .route-table tr:last-child td{border-bottom:none}
 .route-table tr:nth-child(even) td{background:var(--paper-warm)}
 .route-table tr.highlight td{background:var(--moss-bg)}
-.badge{display:inline-block;font-size:10px;padding:2px 8px;letter-spacing:0.05em;font-weight:500}
+.badge{display:inline-block;font-size:11px;padding:3px 9px;letter-spacing:0.05em;font-weight:500}
 .badge-green{background:var(--moss);color:white}
 .badge-amber{background:var(--amber);color:white}
 .badge-blue{background:var(--blue);color:white}
 
 .divider{display:flex;align-items:center;gap:1rem;margin:2rem 0}
 .divider::before,.divider::after{content:'';flex:1;height:1px;background:var(--line)}
-.divider span{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:12px;color:var(--ink-muted)}
+.divider span{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:13px;color:var(--ink-muted)}
 
-footer{background:var(--paper-warm);border-top:1px solid var(--line);padding:2rem;text-align:center;font-size:11px;color:var(--ink-muted);letter-spacing:0.08em}
+footer{background:var(--paper-warm);border-top:1px solid var(--line);padding:2rem;text-align:center;font-size:13px;color:var(--ink-muted);letter-spacing:0.08em}
 
 @media(max-width:600px){
   .two-col,.ref-compare{grid-template-columns:1fr}
@@ -165,123 +152,22 @@ footer{background:var(--paper-warm);border-top:1px solid var(--line);padding:2re
 </header>
 
 <nav class="toc">
-  <a href="#problem">① 課題提起</a>
-  <a href="#resources">② 南砺の資源</a>
-  <a href="#timing">③ 外部変化</a>
-  <a href="#concept">④ コンセプト</a>
-  <a href="#bizmodel">⑤ ビジネスモデル</a>
+  <a href="#resources">① 南砺の資源</a>
+  <a href="#timing">② 外部変化</a>
+  <a href="#problem">③ 課題提起</a>
+  <a href="#zoning">④ 規制・補助金</a>
+  <a href="#concept">⑤ コンセプト</a>
   <a href="#howto">⑥ アクションプラン</a>
-  <a href="#zoning">⑦ 規制・補助金</a>
-  <a href="#reference">⑧ 参考事例</a>
+  <a href="#reference">⑦ 参考事例</a>
 </nav>
 
-<!-- ① 課題提起 -->
-<section id="problem">
-  <div class="container">
-    <p class="section-eyebrow">① Problem</p>
-    <h2>課題提起 ── 魅力はある。受け皿が少ない。</h2>
-
-    <div class="two-col">
-      <div class="col-cell">
-        <div class="col-label">現状</div>
-        <div class="col-body">
-          南砺市は自然・食・工芸・景観など圧倒的な資源を持つ。
-          しかし富山市内で完結する旅行者は「海鮮がうまい地方都市」で満足して帰ってしまう。
-          東京から1時間足を伸ばすと全く別の景色・雰囲気・人に出会えるが、その魅力はまだほとんど知られていない。
-          翌日に黒部方面など他エリアも視察したが、やはり南砺の雰囲気・感性への刺さり方は別格だった。
-        </div>
-      </div>
-      <div class="col-cell dark">
-        <div class="col-label">核心の問題</div>
-        <div class="col-body">
-          ゴールドウィンが年間100〜150万人を呼び込む大型施設を2027年に開業する。
-          しかし周辺に<strong>「自然・食・体験が一体になった」宿泊施設がほぼ存在しない。</strong>
-          通常の旅館・ホテルはあるが、南砺の文脈に即した体験型の受け皿は空白地帯。今つくることが唯一の先行者機会。
-        </div>
-      </div>
-    </div>
-
-    <h3>南砺市 宿泊施設の現状マップ</h3>
-    <p style="font-size:13px;color:var(--ink-light);margin-bottom:1rem;line-height:1.7">
-      宿泊施設そのものは存在するが、「自然体験・食・工芸・ウェルネスが一体になった滞在」という軸で見ると、以下のような空白が残る。
-    </p>
-
-    <table class="lodge-table">
-      <thead>
-        <tr>
-          <th>施設カテゴリ</th>
-          <th>代表例</th>
-          <th>体験との結びつき</th>
-          <th>評価</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><span class="dot dot-gray"></span>観光旅館・ホテル</td>
-          <td>桜ヶ池クアガーデン等</td>
-          <td>温泉・食あり。ただし施設内完結型。南砺の文脈に深く入る設計ではない</td>
-          <td>競合なし（層が違う）</td>
-        </tr>
-        <tr>
-          <td><span class="dot dot-gray"></span>合掌民宿（五箇山）</td>
-          <td>相倉・菅沼エリア各宿</td>
-          <td>合掌造り体験・郷土料理あり。ただし世界遺産観光地型。リピートより一見客向け</td>
-          <td>競合なし（エリアが違う）</td>
-        </tr>
-        <tr>
-          <td><span class="dot dot-amber"></span>体験型宿泊（希少）</td>
-          <td>Bed and Craft（井波）</td>
-          <td>井波彫刻の職人体験と宿泊を一体化。南砺市内では唯一の本格的地域体験型。ただし工芸特化</td>
-          <td>参考にすべき先行例</td>
-        </tr>
-        <tr>
-          <td><span class="dot dot-gray"></span>山奥キャンプ系</td>
-          <td>利賀国際キャンプ場「住箱」等</td>
-          <td>自然体験あり。ただしアウトドア特化。40代女性・子育て世帯向けではない</td>
-          <td>ターゲット層が違う</td>
-        </tr>
-        <tr class="gap">
-          <td colspan="4">
-            <span class="dot dot-red"></span>
-            空白地帯：才川七周辺（ワイナリー・散居村・田園景観エリア）に体験型宿泊施設はゼロ
-          </td>
-        </tr>
-        <tr class="gap">
-          <td colspan="4">
-            <span class="dot dot-red"></span>
-            空白地帯：散居村の景観＋食＋ウェルネスを一体提供する一棟貸し民泊はゼロ
-          </td>
-        </tr>
-        <tr class="gap">
-          <td colspan="4">
-            <span class="dot dot-red"></span>
-            空白地帯：40代女性・子育て世帯が「また来たい」と思うウェルネス系滞在施設はゼロ
-          </td>
-        </tr>
-      </tbody>
-    </table>
-
-    <div class="callout amber">
-      <strong>参照モデル（隣接市）：楽土庵（砺波市）</strong><br>
-      散居村に佇む築200年古民家をリノベした3室限定スモールラグジュアリー宿。食・工芸・アクティビティが一体。1泊2食43,000円〜でも支持され、メディア掲載多数。
-      南砺市にはこれに相当する施設が存在しない。才川七エリアでの展開はこの空白を埋めるポジションになる。
-    </div>
-
-    <div class="callout dark">
-      <strong>仮説（体験からの示唆）：</strong><br>
-      富山市内・黒部など他エリアと南砺を比較訪問した結果、南砺だけが「地方都市の域を出た」別の感性で刺さる場所だという感覚を得た。
-      ホタル・散居村・五箇山・ワイナリーという要素が揃うエリアは、感度の高い40代女性や子育て世帯に対して特別な訴求力を持つという仮説を、体験として持っている。
-    </div>
-  </div>
-</section>
-
-<!-- ② 南砺の資源 -->
+<!-- ① 南砺の資源 -->
 <section id="resources">
   <div class="container">
-    <p class="section-eyebrow">② Assets</p>
+    <p class="section-eyebrow">① Assets</p>
     <h2>南砺の資源 ── 手つかずで残っている強み</h2>
 
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin:1.5rem 0">
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px;margin:1.5rem 0">
       <div class="biz-card">
         <div class="biz-role">景観</div>
         <div class="biz-name">散居村・田園</div>
@@ -321,10 +207,10 @@ footer{background:var(--paper-warm);border-top:1px solid var(--line);padding:2re
   </div>
 </section>
 
-<!-- ③ 外部変化 -->
+<!-- ② 外部変化 -->
 <section id="timing">
   <div class="container">
-    <p class="section-eyebrow">③ External Drivers</p>
+    <p class="section-eyebrow">② External Drivers</p>
     <h2>外部変化 ── 2027年が節目</h2>
 
     <div class="timeline">
@@ -370,137 +256,101 @@ footer{background:var(--paper-warm);border-top:1px solid var(--line);padding:2re
   </div>
 </section>
 
-<!-- ④ コンセプト -->
-<section id="concept">
+<!-- ③ 課題提起 -->
+<section id="problem">
   <div class="container">
-    <p class="section-eyebrow">④ Concept</p>
-    <h2>コンセプト ── 整う旅、南砺。</h2>
+    <p class="section-eyebrow">③ Problem</p>
+    <h2>課題提起 ── 魅力はある。受け皿が少ない。</h2>
 
-    <div class="concept-hero">
-      <div class="concept-catch">整う旅、南砺。</div>
-      <div class="concept-sub">— Nanto, where you reset.</div>
-      <p class="concept-body">
-        都会の喧騒から離れ、ホタルと田んぼの景色の中で「本当の自然」を家族で体験する。<br>
-        三箇村の散居村、五箇山の静けさ、才川七のワイナリーが見える高台からの眺め。<br>
-        chef-toの食がその滞在をひとつ上の体験に引き上げる。<br>
-        楽土庵が砺波平野で体現した世界観を、南砺の文脈で。
-      </p>
+    <div class="two-col">
+      <div class="col-cell">
+        <div class="col-label">現状</div>
+        <div class="col-body">
+          南砺市は自然・食・工芸・景観など圧倒的な資源を持つ。
+          しかし富山市内で完結する旅行者は「海鮮がうまい地方都市」で満足して帰ってしまう。
+          東京から1時間足を伸ばすと全く別の景色・雰囲気・人に出会えるが、その魅力はまだほとんど知られていない。
+          翌日に黒部方面など他エリアも視察したが、やはり南砺の雰囲気・感性への刺さり方は別格だった。
+        </div>
+      </div>
+      <div class="col-cell dark">
+        <div class="col-label">核心の問題</div>
+        <div class="col-body">
+          ゴールドウィンが年間100〜150万人を呼び込む大型施設を2027年に開業する。
+          しかし周辺に<strong>「自然・食・体験が一体になった」宿泊施設がほぼ存在しない。</strong>
+          通常の旅館・ホテルはあるが、南砺の文脈に即した体験型の受け皿は空白地帯。今つくることが唯一の先行者機会。
+        </div>
+      </div>
     </div>
 
-    <div class="tags">
-      <span class="tag tag-amber">40代女性</span>
-      <span class="tag tag-amber">子育て世帯</span>
-      <span class="tag tag-blue">東京からの2地域居住層</span>
-      <span class="tag tag-green">自然体験・ホタル・田んぼ</span>
-      <span class="tag tag-green">整う・ウェルネス</span>
-      <span class="tag tag-green">食を楽しむ旅</span>
-    </div>
-  </div>
-</section>
-
-<!-- ⑤ ビジネスモデル -->
-<section id="bizmodel">
-  <div class="container">
-    <p class="section-eyebrow">⑤ Business Model</p>
-    <h2>ビジネスモデル ── プロデュース・運営委託型</h2>
-
-    <p style="font-size:13px;color:var(--ink-mid);line-height:1.9;margin-bottom:1.5rem">
-      自分たちが物件を所有・直接運営するのではなく、<strong style="font-weight:500">プロデュース・ブランディング・運営委託する側</strong>に回る。
-      初期リスクを最小化しながら、複数物件への横展開が可能なモデル。
+    <h3>南砺市 宿泊施設の現状マップ</h3>
+    <p style="font-size:15px;color:var(--ink-light);margin-bottom:1rem;line-height:1.8">
+      宿泊施設そのものは存在するが、「自然体験・食・工芸・ウェルネスが一体になった滞在」という軸で見ると、以下のような空白が残る。
     </p>
 
-    <div class="biz-grid">
-      <div class="biz-card">
-        <div class="biz-role">ネットワーク</div>
-        <div class="biz-name">奥野さん</div>
-        <div class="biz-body">南砺市出身。地元の空き家オーナー・農家・行政との接続。市場に出ていない物件へのアクセスが期待できる。</div>
-      </div>
-      <div class="biz-card">
-        <div class="biz-role">物件オーナー</div>
-        <div class="biz-name">才川七周辺の空き家</div>
-        <div class="biz-body">ワイナリー周辺の見晴らしの良いエリアを第一候補に。空き家バンク活用で改修補助も取りやすい。</div>
-      </div>
-      <div class="biz-card">
-        <div class="biz-role">プロデュース</div>
-        <div class="biz-name">弊社（事業主体）</div>
-        <div class="biz-body">コンセプト設計・ブランディング・集客・体験設計・chef-to食連携。オーナーへの運営委託スキームを構築する。</div>
-      </div>
-      <div class="biz-card">
-        <div class="biz-role">食の差別化</div>
-        <div class="biz-name">chef-to</div>
-        <div class="biz-body">ウェルカムボックス（到着時の食材・惣菜セット）または夕食オプションとして提供。他の民泊との唯一の差別化軸。</div>
-      </div>
-      <div class="biz-card">
-        <div class="biz-role">体験コンテンツ</div>
-        <div class="biz-name">地域農家・工芸家</div>
-        <div class="biz-body">干柿農家・田んぼオーナー・井波彫刻師との連携。農林漁業体験民宿への格上げ時に必要な体験提供役。</div>
-      </div>
-      <div class="biz-card">
-        <div class="biz-role">将来展開</div>
-        <div class="biz-name">複数物件への横展開</div>
-        <div class="biz-body">1軒で実績・ノウハウをつくり、同じスキームで2軒・3軒と展開。南砺における「ブランド」として確立する。</div>
-      </div>
+    <table class="lodge-table">
+      <thead>
+        <tr>
+          <th>施設カテゴリ</th>
+          <th>代表例</th>
+          <th>体験との結びつき</th>
+          <th>評価</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="dot dot-gray"></span>観光旅館・ホテル</td>
+          <td>桜ヶ池クアガーデン等</td>
+          <td>温泉・食あり。ただし施設内完結型。南砺の文脈に深く入る設計ではない</td>
+          <td>競合なし（層が違う）</td>
+        </tr>
+        <tr>
+          <td><span class="dot dot-gray"></span>合掌民宿（五箇山）</td>
+          <td>相倉・菅沼エリア各宿</td>
+          <td>合掌造り体験・郷土料理あり。ただし世界遺産観光地型。リピートより一見客向け</td>
+          <td>競合なし（エリアが違う）</td>
+        </tr>
+        <tr>
+          <td><span class="dot dot-amber"></span>体験型宿泊（希少）</td>
+          <td>Bed and Craft（井波）</td>
+          <td>井波彫刻の職人体験と宿泊を一体化。南砺市内では唯一の本格的地域体験型。ただし工芸特化</td>
+          <td>参考にすべき先行例</td>
+        </tr>
+        <tr>
+          <td><span class="dot dot-gray"></span>山奥キャンプ系</td>
+          <td>利賀国際キャンプ場「住箱」等</td>
+          <td>自然体験あり。ただしアウトドア特化。40代女性・子育て世帯向けではない</td>
+          <td>ターゲット層が違う</td>
+        </tr>
+        <tr class="gap">
+          <td colspan="4"><span class="dot dot-red"></span>空白地帯：才川七周辺（ワイナリー・散居村・田園景観エリア）に体験型宿泊施設はゼロ</td>
+        </tr>
+        <tr class="gap">
+          <td colspan="4"><span class="dot dot-red"></span>空白地帯：散居村の景観＋食＋ウェルネスを一体提供する一棟貸し民泊はゼロ</td>
+        </tr>
+        <tr class="gap">
+          <td colspan="4"><span class="dot dot-red"></span>空白地帯：40代女性・子育て世帯が「また来たい」と思うウェルネス系滞在施設はゼロ</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="callout amber">
+      <strong>参照モデル（隣接市）：楽土庵（砺波市）</strong><br>
+      散居村に佇む築200年古民家をリノベした3室限定スモールラグジュアリー宿。食・工芸・アクティビティが一体。1泊2食43,000円〜でも支持され、メディア掲載多数。
+      南砺市にはこれに相当する施設が存在しない。才川七エリアでの展開はこの空白を埋めるポジションになる。
+    </div>
+
+    <div class="callout dark">
+      <strong>仮説（体験からの示唆）：</strong><br>
+      富山市内・黒部など他エリアと南砺を比較訪問した結果、南砺だけが「地方都市の域を出た」別の感性で刺さる場所だという感覚を得た。
+      ホタル・散居村・五箇山・ワイナリーという要素が揃うエリアは、感度の高い40代女性や子育て世帯に対して特別な訴求力を持つという仮説を、体験として持っている。
     </div>
   </div>
 </section>
 
-<!-- ⑥ アクションプラン -->
-<section id="howto">
-  <div class="container">
-    <p class="section-eyebrow">⑥ Action Plan</p>
-    <h2>アクションプラン ── スモールスタートから育てる</h2>
-
-    <div class="steps">
-      <div class="step">
-        <div class="step-num">1</div>
-        <div class="step-content">
-          <div class="step-title">奥野さんへ物件打診</div>
-          <div class="step-body">才川七ワイナリー周辺の空き家を第一候補に。地元出身のネットワークで、市場に出ていない物件へのアクセスを探る。物件の用途地域・登記状況・築年数を確認。</div>
-        </div>
-      </div>
-      <div class="step">
-        <div class="step-num">2</div>
-        <div class="step-content">
-          <div class="step-title">南砺市 行政窓口へ非公式ヒアリング</div>
-          <div class="step-body">南砺で暮らしません課（TEL 0763-23-2037）へ。才川七の都市計画区域種別・旅館業可否・空き家バンク登録手順を確認。奥野さん経由で繋いでもらうのが最速。</div>
-        </div>
-      </div>
-      <div class="step">
-        <div class="step-num">3</div>
-        <div class="step-content">
-          <div class="step-title">住宅宿泊事業法（届出）でスモールスタート</div>
-          <div class="step-body">年180日以内の制約の中で稼働実績をつくる。ターゲット層への価値検証・口コミ形成の期間と位置づける。</div>
-        </div>
-      </div>
-      <div class="step">
-        <div class="step-num">4</div>
-        <div class="step-content">
-          <div class="step-title">chef-toの食を組み込む</div>
-          <div class="step-body">ウェルカムボックスまたは夕食オプションとして提供。南砺の地域食＋chef-toの組み合わせは他では再現不可能な差別化軸。</div>
-        </div>
-      </div>
-      <div class="step">
-        <div class="step-num">5</div>
-        <div class="step-content">
-          <div class="step-title">農林漁業体験民宿へ格上げ（2027年前後）</div>
-          <div class="step-body">地域農家・工芸家との連携で体験コンテンツを構築。日数制限を外し、PlayEarthPark開業の人流を本格的に取り込む。農家でなくても地域連携で取得可能。</div>
-        </div>
-      </div>
-      <div class="step">
-        <div class="step-num">6</div>
-        <div class="step-content">
-          <div class="step-title">複数物件への横展開</div>
-          <div class="step-body">1軒目の実績をもとに同スキームで展開。ふるさと住民登録制度（2027年3月）と連携し、登録者向け優遇でリピーター化を促進。</div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ⑦ 規制・補助金 -->
+<!-- ④ 規制・補助金 -->
 <section id="zoning">
   <div class="container">
-    <p class="section-eyebrow">⑦ Regulations & Subsidies</p>
+    <p class="section-eyebrow">④ Regulations & Subsidies</p>
     <h2>規制・補助金 ── 才川七エリアは開業しやすい</h2>
 
     <div class="callout info">
@@ -566,10 +416,91 @@ footer{background:var(--paper-warm);border-top:1px solid var(--line);padding:2re
   </div>
 </section>
 
-<!-- ⑧ 参考事例 -->
+<!-- ⑤ コンセプト -->
+<section id="concept">
+  <div class="container">
+    <p class="section-eyebrow">⑤ Concept</p>
+    <h2>コンセプト ── 整う旅、南砺。</h2>
+
+    <div class="concept-hero">
+      <div class="concept-catch">整う旅、南砺。</div>
+      <div class="concept-sub">— Nanto, where you reset.</div>
+      <p class="concept-body">
+        都会の喧騒から離れ、ホタルと田んぼの景色の中で「本当の自然」を家族で体験する。<br>
+        三箇村の散居村、五箇山の静けさ、才川七のワイナリーが見える高台からの眺め。<br>
+        chef-toの食がその滞在をひとつ上の体験に引き上げる。<br>
+        楽土庵が砺波平野で体現した世界観を、南砺の文脈で。
+      </p>
+    </div>
+
+    <div class="tags">
+      <span class="tag tag-amber">40代女性</span>
+      <span class="tag tag-amber">子育て世帯</span>
+      <span class="tag tag-blue">東京からの2地域居住層</span>
+      <span class="tag tag-green">自然体験・ホタル・田んぼ</span>
+      <span class="tag tag-green">整う・ウェルネス</span>
+      <span class="tag tag-green">食を楽しむ旅</span>
+    </div>
+  </div>
+</section>
+
+<!-- ⑥ アクションプラン -->
+<section id="howto">
+  <div class="container">
+    <p class="section-eyebrow">⑥ Action Plan</p>
+    <h2>アクションプラン ── スモールスタートから育てる</h2>
+
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">1</div>
+        <div class="step-content">
+          <div class="step-title">奥野さんへ物件打診</div>
+          <div class="step-body">才川七ワイナリー周辺の空き家を第一候補に。地元出身のネットワークで、市場に出ていない物件へのアクセスを探る。物件の用途地域・登記状況・築年数を確認。</div>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <div class="step-content">
+          <div class="step-title">南砺市 行政窓口へ非公式ヒアリング</div>
+          <div class="step-body">南砺で暮らしません課（TEL 0763-23-2037）へ。才川七の都市計画区域種別・旅館業可否・空き家バンク登録手順を確認。奥野さん経由で繋いでもらうのが最速。</div>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <div class="step-content">
+          <div class="step-title">住宅宿泊事業法（届出）でスモールスタート</div>
+          <div class="step-body">年180日以内の制約の中で稼働実績をつくる。ターゲット層への価値検証・口コミ形成の期間と位置づける。</div>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">4</div>
+        <div class="step-content">
+          <div class="step-title">chef-toの食を組み込む</div>
+          <div class="step-body">ウェルカムボックスまたは夕食オプションとして提供。南砺の地域食＋chef-toの組み合わせは他では再現不可能な差別化軸。</div>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">5</div>
+        <div class="step-content">
+          <div class="step-title">農林漁業体験民宿へ格上げ（2027年前後）</div>
+          <div class="step-body">地域農家・工芸家との連携で体験コンテンツを構築。日数制限を外し、PlayEarthPark開業の人流を本格的に取り込む。農家でなくても地域連携で取得可能。</div>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">6</div>
+        <div class="step-content">
+          <div class="step-title">複数物件への横展開</div>
+          <div class="step-body">1軒目の実績をもとに同スキームで展開。ふるさと住民登録制度（2027年3月）と連携し、登録者向け優遇でリピーター化を促進。</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ⑦ 参考事例 -->
 <section id="reference">
   <div class="container">
-    <p class="section-eyebrow">⑧ Reference</p>
+    <p class="section-eyebrow">⑦ Reference</p>
     <h2>参考事例</h2>
 
     <h3 style="margin-bottom:1rem">楽土庵（砺波市）── 目指す世界観の参照モデル</h3>
@@ -600,7 +531,7 @@ footer{background:var(--paper-warm);border-top:1px solid var(--line);padding:2re
     <div class="divider"><span>also reference</span></div>
 
     <h3 style="margin-bottom:1rem">三豊モデル（香川県三豊市）── 関係人口設計の参照</h3>
-    <p style="font-size:13px;color:var(--ink-mid);line-height:1.9;margin-bottom:1rem">
+    <p style="font-size:15px;color:var(--ink-mid);line-height:1.9;margin-bottom:1rem">
       週3回の農作業で家賃・光熱費が無料になる「ベーシックインフラ」構想で関係人口を定着させた先進事例。
       金銭メリットではなく<strong style="font-weight:500">「地域での役割を渡す」</strong>設計が繰り返し来る理由をつくった。
       5年で観光客50万人超。国が「三豊モデル」と呼ぶ成功事例。
